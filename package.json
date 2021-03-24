@@ -1,18 +1,13 @@
 {
-  "name": "serverless-starter",
+  "name": "functions",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "functions": "cd functions/test && npm install"
-  },
-  "keywords": [],
+  "main": "test.js",
+  "scripts": {},
   "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "cpx": "^1.5.0",
-    "nodemon": "^2.0.6"
+  "dependencies": {
+    "apollo-server-lambda": "^2.21.2",
+    "firebase-admin": "^9.5.0",
+    "graphql": "^15.5.0"
   }
 }
