@@ -1,7 +1,13 @@
 
 [build]
+  # This command builds the site
   command = "npm run build"
+
+  # This is where our functions are located
   functions = "functions"
+
+  # This is the directory that will be deployed
   publish = "build"
-[context.branch-deploy.environment]
+
+  [context.branch-deploy.environment]
   NODE_ENV = "development"
